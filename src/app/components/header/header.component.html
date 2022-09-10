@@ -1,0 +1,34 @@
+<div class="container-fluid bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-light bg-light">
+                    <a class="navbar-brand" href="#">CCM Crypto Currency Market</a>
+                           
+
+                    <div class="d-flex flex-row justify-content-around">
+                        
+    
+                    </div>
+
+                    <div class="d-flex justify-content-around">
+                        <div class="px-2 ">
+                            <select class="rounded" style="height: 100%;">
+                                <ng-container *ngFor="let item of currencySupported">
+                                    <option value="item">{{item | uppercase}}</option>
+                                </ng-container>
+                            </select>
+                        </div>
+                        <div class="px-2 bd-highlight">
+                            <button type="button" class="btn btn-primary">Login</button>
+                        </div>
+                    </div>
+                    
+                            
+                         
+                  </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
